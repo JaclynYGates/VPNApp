@@ -4,9 +4,8 @@
 client
 dev tun
 proto udp
-remote 45.33.93.136 443 udp
-remote 45.33.93.136 1194 udp
-remote 45.33.93.136 1194 tcp
+remote 45.33.93.136 443
+remote 45.33.93.136 1194
 resolv-retry infinite
 nobind
 persist-key
@@ -111,6 +110,5 @@ fca4b64d4acbb2ae4c5e707851f65105
 79b6d5136f50967178fe1d79fcdf9350
 -----END OpenVPN Static key V1-----
 </tls-crypt>"},
-
     ]
 }
