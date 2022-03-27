@@ -54,8 +54,8 @@ public class WelcomeActivity extends AppCompatActivity {
 
         mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
 
-        StringGetAppURL = "https://raw.githubusercontent.com/Capstone4999/VPNApp/master/appdetails.json";
-        StringGetConnectionURL = "https://raw.githubusercontent.com/Capstone4999/VPNApp/master/filedetails.json";
+        StringGetAppURL = "https://raw.githubusercontent.com/Capstone4999/VPNAppExtension/master/appdetails.json";
+        StringGetConnectionURL = "https://raw.githubusercontent.com/Capstone4999/VPNAppExtension/master/filedetails.json";
         //StringGetConnectionURL = "https://gayankuruppu.github.io/buzz/connection.html";
 
         Typeface RobotoMedium = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Medium.ttf");
