@@ -126,7 +126,7 @@ public class ServerActivity extends Activity {
             iv_server_refresh.setBackground(getDrawable(R.drawable.ic_servers_process));
             RequestQueue queue = Volley.newRequestQueue(ServerActivity.this);
             queue.getCache().clear();
-            StringRequest stringRequest = new StringRequest(Request.Method.GET, "https://raw.githubusercontent.com/Capstone4999/VPNApp/master/appdetails.json",
+            StringRequest stringRequest = new StringRequest(Request.Method.GET, "https://raw.githubusercontent.com/Capstone4999/VPNAppExtension/master/appdetails.json",
                     new Response.Listener<String>() {
                         @Override
                         public void onResponse(String Response) {
@@ -163,7 +163,7 @@ public class ServerActivity extends Activity {
             iv_server_refresh.setBackground(getDrawable(R.drawable.ic_servers_process));
             RequestQueue queue = Volley.newRequestQueue(ServerActivity.this);
             queue.getCache().clear();
-            StringRequest stringRequest = new StringRequest(Request.Method.GET, "https://raw.githubusercontent.com/Capstone4999/VPNApp/master/filedetails.json",
+            StringRequest stringRequest = new StringRequest(Request.Method.GET, "https://raw.githubusercontent.com/Capstone4999/VPNAppExtension/master/filedetails.json",
                     new Response.Listener<String>() {
                         @Override
                         public void onResponse(String Response) {
